@@ -1,0 +1,67 @@
+.contacts{
+    background-color: #3A3A3A;
+    background-image: url(../images/contact_us.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+
+
+
+.contacts__inner{
+    color: #fff;
+    max-width: 500px;
+    margin-left: auto;
+}
+
+.contacts__title{
+    font-size: clamp(1.563rem, 1.313rem + 1.25vw, 2.25rem) ;
+    margin-bottom: 20px;
+}
+
+.contacts__text{
+    font-size: clamp(0.938rem, 0.824rem + 0.57vw, 1.25rem);
+    margin-bottom: 40px;
+
+}
+
+.contacts__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 40px;
+    border-bottom: 3px solid #1AE0EC;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.textarea{
+    height: 90px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #1AE0EC;
+    font-size: 24px;
+
+}
+
+.input__btn{
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.input__btn:hover{
+    transform: scale(1.1);
+    background-color: #8bf9ff;
+
+}
+
