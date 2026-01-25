@@ -1,0 +1,31 @@
+.hero__section{
+    background-color: rgb(229, 231, 235, 0.2) ;
+}
+
+.hero {
+  position: relative;
+  padding: 72px 0;
+  background: rgba(243, 244, 246, 0.6);          
+  border: 1px solid rgba(17, 24, 39, 0.06);   
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.hero__title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  line-height: 1.05;
+  color: rgb(15, 23, 42);                                  
+  font-size: clamp(2.5rem, 1.591rem + 4.55vw, 5rem);
+  text-align: center;         
+}
+
+.hero__title-line {
+  display: block;
+  color: rgb(107, 114, 128);                                  
+                                
+}
+
+.hero__description {
+  text-align: center;
+}

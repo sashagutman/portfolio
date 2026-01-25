@@ -1,0 +1,112 @@
+.about__section{
+    background-color: rgb(229, 231, 235, 0.2) ;
+}
+
+.about__title-line{
+    color: rgb(94, 105, 122);
+    display: block;
+}
+
+.about__description{
+  text-align: justify;
+}
+
+.about__description span{
+    color: rgb(48, 77, 122);
+    font-weight: 700;
+}
+
+.about__img img{
+    border-radius: 12px;
+    max-width: 275px;
+    max-height: 160px;
+}
+
+.about__meta {
+  margin-top: clamp(1.25rem, 3.5vw, 2rem);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about__group {
+  border: 1px solid rgba(17,24,39,0.08);     
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.about__focus{
+    flex: 1 1 300px;
+}
+
+.about__tech{
+    flex: 1 1 150px;
+}
+
+.about__meta-title {
+  margin: 0 0 .5rem;
+  font-size: 0.95rem;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color: rgb(107, 114, 128);             
+}
+
+.about__bullets {
+  display: grid;
+  gap: 8px;             
+  color: rgb(107, 114, 128);
+}
+
+.about__bullets li {
+  position: relative;
+  padding-left: 18px;    
+}
+
+.about__bullets li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;              
+  width: 8px;            
+  height: 8px;          
+  border-radius: 50%;
+  background-color: rgb(99, 102, 241);
+}
+
+.about__tags {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px
+}
+
+.about__tags li {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: rgba(0,0,0,.06); 
+  color: rgb(17, 24, 39);
+  font-size: .85rem;
+}
+
+.about__action{
+    width: 280px;
+    margin: 20px auto;
+}
+
+.about__btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about__btn:hover{
+    background-color: rgb(229, 231, 235, 0.5);  
+}
+
+.about__btn:active{
+    transform: scale(0.98);
+}
+
+.about__btn-icon{
+  margin-left: 10px;
+}

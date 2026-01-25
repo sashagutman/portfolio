@@ -1,0 +1,51 @@
+.footer{
+    background-color: rgb(229, 231, 235, 0.2);
+}
+
+.footer__inner {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer__nav{
+    flex: 1;
+}
+
+.footer__title {
+  margin: 0 0 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(23, 52, 88);
+}
+
+.footer__list {
+  display: flex;
+  gap: 18px;
+}
+
+.footer__nav a {
+  color: rgb(94, 105, 122);
+  transition: all 0.5s ease;
+}
+.footer__nav a:hover {
+  color: #0077b5;
+  text-decoration: underline;
+}
+
+.footer__legal {
+  border-top: 1px solid rgba(148,163,184,0.25);
+  padding-top: 14px;
+  width: 100%;
+}
+
+.footer__legal-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__legal small {
+  color: rgb(148, 163, 184);
+  font-size: 14px;
+}
