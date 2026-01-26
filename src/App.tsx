@@ -17,7 +17,7 @@ function App() {
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="playground" element={<PlaygroundPage />} />
+        <Route path="/playground" element={<PlaygroundPage />} />
       </Routes>
       <Footer />
     </>
