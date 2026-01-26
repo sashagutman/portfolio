@@ -14,8 +14,9 @@ const Header: FunctionComponent<HeaderProps> = ({ items }) => {
       <div className="container">
         <div className="header__inner">
           <div className="header__logo">
-            <Link className="header__logo-link" to={`${import.meta.env.BASE_URL}#home`} aria-label="Home">
-              <img src={`${import.meta.env.BASE_URL}projects-img/logoAG.png`}
+            <Link className="header__logo-link" to="/#home" aria-label="Home">
+              <img
+                src={`${import.meta.env.BASE_URL}projects-img/logoAG.png`}
                 alt="AG logo"
                 width={50}
                 height={50}
@@ -31,7 +32,9 @@ const Header: FunctionComponent<HeaderProps> = ({ items }) => {
             <ul className="nav__list">
               {items.map(({ label, href }) => (
                 <li className="nav__item" key={href}>
-                  <Link className="nav__link" to={href}>{label}</Link>
+                  <Link className="nav__link" to={href}>
+                    {label}
+                  </Link>
                 </li>
               ))}
             </ul>
