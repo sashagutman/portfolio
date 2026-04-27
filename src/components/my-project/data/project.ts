@@ -43,13 +43,13 @@ export const PROJECTS = [
     code: "https://github.com/sashagutman/fake-store",
   },
   {
-    id: "timesheet app",
+    id: "timesheet-app",
     title: "Timesheet App",
     summary: "A responsive timesheet app for tracking work hours, managing day statuses, adding signatures, and exporting reports.",
     cover: `${import.meta.env.BASE_URL}projects-img/timesheetApp.jpg`,
     techs: ["react", "ts", "css",],
     code: "https://github.com/sashagutman/timesheet-app",
-    live: "#"
+    // live: "#"
   }
 
 ] satisfies Project[];
