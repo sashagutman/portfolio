@@ -2,6 +2,16 @@ import type { Project } from "../types/project";
 
 export const PROJECTS = [
   {
+    id: "dananz-layout",
+    title: "Dananz — multi-page website layout",
+    summary:
+      "Multi-page website layout (home, about, services, projects, contact): responsive layout, semantic HTML/CSS, and basic JS for interactivity.",
+    cover: `${import.meta.env.BASE_URL}projects-img/dananz.jpg`,
+    techs: ["html", "css", "js"],
+    code: "https://github.com/sashagutman/dananz-layout",
+    live: "https://sashagutman.github.io/dananz-layout/"
+  },
+  {
     id: "b-card",
     title: "B-Card",
     summary:
@@ -33,22 +43,12 @@ export const PROJECTS = [
     code: "https://github.com/sashagutman/fake-store",
   },
   {
-    id: "dananz-layout",
-    title: "Dananz — multi-page website layout",
-    summary:
-      "Multi-page website layout (home, about, services, projects, contact): responsive layout, semantic HTML/CSS, and basic JS for interactivity.",
-    cover: `${import.meta.env.BASE_URL}projects-img/dananz.jpg`,
-    techs: ["html", "css", "js"],
-    code: "https://github.com/sashagutman/dananz-layout",
-    live: "https://sashagutman.github.io/dananz-layout/"
-  },
-  {
     id: "timesheet app",
     title: "Timesheet App",
-    summary: "A real-world employee timesheet tool built with React and TypeScript. Features dynamic month generation, customizable day statuses, working hours tracking, signature capture, and export functionality (PNG), optimized for mobile usage.",
-    cover: `${import.meta.env.BASE_URL}project-img/timesheet-app.jpg`,
+    summary: "A responsive timesheet app for tracking work hours, managing day statuses, adding signatures, and exporting reports.",
+    cover: `${import.meta.env.BASE_URL}projects-img/timesheetApp.jpg`,
     techs: ["react", "ts", "css",],
-    code: "https://github.com/sashagutman/timesheetApp",
+    code: "https://github.com/sashagutman/timesheet-app",
     live: "#"
   }
 
