@@ -42,5 +42,14 @@ export const PROJECTS = [
     code: "https://github.com/sashagutman/dananz-layout",
     live: "https://sashagutman.github.io/dananz-layout/"
   },
-  
+  {
+    id: "timesheet app",
+    title: "Timesheet App",
+    summary: "A real-world employee timesheet tool built with React and TypeScript. Features dynamic month generation, customizable day statuses, working hours tracking, signature capture, and export functionality (PNG), optimized for mobile usage.",
+    cover: `${import.meta.env.BASE_URL}project-img/timesheet-app.jpg`,
+    techs: ["react", "ts", "css",],
+    code: "https://github.com/sashagutman/timesheetApp",
+    live: "#"
+  }
+
 ] satisfies Project[];
