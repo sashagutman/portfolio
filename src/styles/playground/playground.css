@@ -1,8 +1,8 @@
 .playground__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+    gap: 20px;
     justify-content: center;
-    gap: 5px;
-    flex-wrap: wrap;
     margin-top: 40px;
 }
 
