@@ -49,7 +49,7 @@ const AboutMe: FunctionComponent<AboutMeProps> = () => {
 
             {/* Текст-интро */}
             <motion.div
-              className="about__group"
+              className="about__group about-summery"
               {...fadeInRight} // справа → в центр
             >
               <p className="description about__description about__intro">

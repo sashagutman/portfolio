@@ -9,6 +9,7 @@
 
 .about__description{
   text-align: justify;
+  max-width: 100%;
 }
 
 .about__description span{
@@ -25,24 +26,29 @@
 .about__meta {
   margin-top: clamp(1.25rem, 3.5vw, 2rem);
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 16px;
+  justify-content: center;
 }
 
 .about__group {
-  border: 1px solid rgba(17,24,39,0.08);     
+  border: 1px solid rgba(17,24,39,0.08);
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 16px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
 }
 
-.about__focus{
-    flex: 1 1 300px;
+.about__img {
+  flex: 0 1 160px;
 }
 
-.about__tech{
-    flex: 1 1 150px;
+.about-summery {
+  flex: 1 1 calc(100% - 276px);
+}
+
+.about__focus {
+  align-self: flex-end;
 }
 
 .about__meta-title {
@@ -109,4 +115,17 @@
 
 .about__btn-icon{
   margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .about__meta {
+    flex-direction: column;
+  }
+
+  .about__focus,
+  .about__tech,
+  .about-summery {
+    flex: 1 1 100%;
+    width: 100%;
+  }
 }
