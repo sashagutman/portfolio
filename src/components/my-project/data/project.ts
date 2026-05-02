@@ -49,7 +49,7 @@ export const PROJECTS = [
     cover: `${import.meta.env.BASE_URL}projects-img/timesheetApp.jpg`,
     techs: ["react", "ts", "css",],
     code: "https://github.com/sashagutman/timesheet-app",
-    // live: "#"
+    live: "https://timesheet-app-d22.pages.dev"
   }
 
 ] satisfies Project[];
